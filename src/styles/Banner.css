@@ -1,0 +1,99 @@
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url("../assets/radio-banner.avif") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.listen-live-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #6b1c44;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.listen-live-button:hover {
+  background: linear-gradient(to right, #6b1d44, #99d6ea);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listen-live-button svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 0.25rem;
+}
+
+.on-air-now {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 50px;
+  color: #28a745;
+  font-weight: 500;
+}
+
+.on-air-now svg {
+  width: 20px;
+  height: 20px;
+  color: #28a745;
+}
+
+.on-air-text {
+  position: relative;
+  z-index: 2;
+}
+
+.on-air-now::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/curved.svg");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-size: cover;
+  z-index: 1;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 300px;
+    padding: 1rem;
+  }
+
+  .listen-live-button {
+    padding: 0.5rem 1rem;
+  }
+
+  .on-air-now {
+    font-size: 0.875rem;
+    padding: 0.375rem 0.75rem;
+  }
+}
