@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/radio-saga/static/css/main.164e32c9.css",
+    "main.js": "/radio-saga/static/js/main.2b1c4668.js",
+    "static/js/488.2b61c71d.chunk.js": "/radio-saga/static/js/488.2b61c71d.chunk.js",
+    "static/media/radio-burnley.png": "/radio-saga/static/media/radio-burnley.69023d0ba81569bb6984.png",
+    "static/media/radio-banner.avif": "/radio-saga/static/media/radio-banner.fc9f67de9e2546e65e2f.avif",
+    "index.html": "/radio-saga/index.html",
+    "static/media/car.svg": "/radio-saga/static/media/car.77116a2432bf5a722045036372c43d34.svg",
+    "static/media/radio.svg": "/radio-saga/static/media/radio.9d6ceff7880595f4ff4ecdf319f0d5e4.svg",
+    "static/media/web.svg": "/radio-saga/static/media/web.79e98404322e670f752b7f8550e86d02.svg",
+    "static/media/mobile.svg": "/radio-saga/static/media/mobile.3a6e3b10697090211ae2eea3dba6a578.svg",
+    "static/media/speakers.svg": "/radio-saga/static/media/speakers.07a19a9e3fdaf3eb55091406ba3e97d2.svg",
+    "static/media/curved.svg": "/radio-saga/static/media/curved.46615ea650f379bb704c.svg",
+    "main.164e32c9.css.map": "/radio-saga/static/css/main.164e32c9.css.map",
+    "main.2b1c4668.js.map": "/radio-saga/static/js/main.2b1c4668.js.map",
+    "488.2b61c71d.chunk.js.map": "/radio-saga/static/js/488.2b61c71d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.164e32c9.css",
+    "static/js/main.2b1c4668.js"
+  ]
+}

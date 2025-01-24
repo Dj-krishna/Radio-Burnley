@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489 384" style="enable-background:new 0 0 489 384;" xml:space="preserve">
+    <g id="outlined_mob">
+        <g>
+            <rect x="183.7" y="78.2" fill="#f7f7f7" width="123" height="185.8" />
+            <circle fill="#f7f7f7" cx="244.5" cy="297" r="20.6" />
+            <path fill="#f7f7f7" d="M-25-21.3v434h550.7v-434H-25z M332.7,312.5c0,11-9,20-20,20H176.3c-11,0-20-9-20-20v-241c0-11,9-20,20-20 h136.4c11,0,20,9,20,20V312.5z" />
+        </g>
+    </g>
+</svg>
